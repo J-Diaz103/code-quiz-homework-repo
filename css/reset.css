@@ -1,0 +1,22 @@
+  
+/* This reset has just html tags that I am familiar with I will add style 
+to the ones that I want to style. I can make other adjusments  as needed*/
+/**/
+html, body, div, header, footer,
+h1, h2, h3, h4, h5, h6, p, 
+a,img, section,
+ol, ul, li,
+article, footer, 
+span, nav, pre {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+   
+}
