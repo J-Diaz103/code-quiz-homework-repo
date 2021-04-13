@@ -24,12 +24,23 @@ h2{
 #start-button{
     margin: 30px;
     margin-left: 42%;
-    
+    height: 50px;
+    width: 120px;
+    background-color: rgb(57, 133, 177);
+    color: rgb(0, 0, 0);
+    border-radius: 35px;
+    border: rgb(31, 28, 28) solid 8px;
+}
+#start-button:hover{
+    background-color: grey;
 }
 #highscores{
     border: none;
     font-size: 30px;
     background-color: var(--button-color);
+}
+#highscores:hover{
+    background-color: gray;
 }
 
 #timer{
@@ -71,5 +82,12 @@ h2{
     margin: 5%;
     text-align: center;
     font-size: 25px;
+
+}
+
+#score{
+    text-align: center;
+    font-size: 35px;
+    
 
 }
